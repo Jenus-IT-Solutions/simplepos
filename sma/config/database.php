@@ -35,16 +35,16 @@
 */
 
 // The following values will probably need to be changed.
-$db['default']['username'] = "user";
-$db['default']['password'] = "pass";
-$db['default']['database'] = "db";
+$db['default']['username'] = "simplepos";
+$db['default']['password'] = "root";
+$db['default']['database'] = "simplepos";
 
 // The following values can probably stay the same.
 $db['default']['hostname'] = "localhost";
 $db['default']['dbdriver'] = "mysql";
 $db['default']['dbprefix'] = "";
 $db['default']['pconnect'] = TRUE;
-$db['default']['db_debug'] = TRUE;
+$db['default']['db_debug'] = FALSE;
 $db['default']['cache_on'] = FALSE;
 $db['default']['cachedir'] = "";
 $db['default']['char_set'] = "utf8";

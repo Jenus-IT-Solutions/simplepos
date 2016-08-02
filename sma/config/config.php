@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://127.0.0.1/sma2/';
+$config['base_url']	= 'http://nosora/';
 
 /*
 |--------------------------------------------------------------------------
@@ -26,7 +26,7 @@ $config['base_url']	= 'http://127.0.0.1/sma2/';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = 'index.php';
+$config['index_page'] = "";
 
 /*
 |--------------------------------------------------------------------------
@@ -250,7 +250,7 @@ $config['sess_expire_on_close']	= TRUE;
 $config['sess_encrypt_cookie']	= FALSE;
 $config['sess_use_database']	= FALSE;
 $config['sess_table_name']		= 'sma_sessions';
-$config['sess_match_ip']		= TRUE;
+$config['sess_match_ip']		= FALSE;
 $config['sess_match_useragent']	= TRUE;
 $config['sess_time_to_update']	= 300;
 
@@ -279,7 +279,7 @@ $config['cookie_secure']	= FALSE;
 | COOKIE data is encountered
 |
 */
-$config['global_xss_filtering'] = TRUE;
+$config['global_xss_filtering'] = true;
 
 /*
 |--------------------------------------------------------------------------

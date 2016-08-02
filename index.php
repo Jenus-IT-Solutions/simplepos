@@ -54,7 +54,7 @@ if (defined('ENVIRONMENT'))
  * Find your timezone here
  * http://php.net/manual/en/timezones.php
  */
-	$timezone = "Asia/Bangkok";
+	$timezone = "Asia/Hong_Kong";
 
 	if(function_exists('date_default_timezone_set')) date_default_timezone_set($timezone); 
 
