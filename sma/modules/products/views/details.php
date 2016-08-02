@@ -45,7 +45,7 @@
 </style>
 </head>
 <body>
-<div class="row-fluid text-center" style="margin:20px; auto;"> <img src="<?php echo base_url().'assets/img/'.LOGO2; ?>" alt="<?php echo SITE_NAME; ?>"> </div>
+<div class="row-fluid text-center" style="margin:20px auto;"> <img src="<?php echo base_url().'assets/img/'.LOGO2; ?>" alt="<?php echo SITE_NAME; ?>"> </div>
 <h3 class="title" style="text-align:center;"><?php echo $product->name; ?></h3>
 <div style="text-align:center; margin-bottom:15px;"><?php echo $barcode; ?></div>
 <table class="table table-bordered table-hover table-striped table-condensed">

@@ -38,10 +38,10 @@
 |
 */
 
-$route['default_controller'] = "auth";
+$route['default_controller'] = "sproducts";
 $route['404_override'] = '';
-$route['auth/(:any)'] = "auth/$1";
-$route['auth/(.*)'] = 'auth/$1';
+//$route['auth/(:any)'] = "auth/$1";
+//$route['auth/(.*)'] = 'auth/$1';
 
 
 /* End of file routes.php */

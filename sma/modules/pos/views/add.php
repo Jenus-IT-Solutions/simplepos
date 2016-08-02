@@ -1,3 +1,10 @@
+<?php
+
+var_dump($categories);
+var_dump($products);
+
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
